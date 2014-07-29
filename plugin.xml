@@ -29,8 +29,8 @@
     <!-- android -->
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
-            <feature name="Camera">
-                <param name="android-package" value="org.apache.cordova.camera.CameraLauncher"/>
+            <feature name="FileOpener">
+                <param name="android-package" value="rspl.mobile.fileOpener.FileOpener"/>
             </feature>
         </config-file>
         <config-file target="AndroidManifest.xml" parent="/*">
